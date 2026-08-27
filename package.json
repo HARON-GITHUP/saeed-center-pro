@@ -1,0 +1,14 @@
+{
+  "name": "saeed-education-center-pro",
+  "version": "4.1.0",
+  "private": true,
+  "description": "Full-stack educational center system with clean GitHub/Firebase Hosting deployment structure",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node scripts/self-check.js"
+  },
+  "engines": {
+    "node": ">=22.5"
+  }
+}

@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /admin.html
+Disallow: /portal.html
+Disallow: /api/
+# بعد معرفة رابط الموقع النهائي، أضف سطر Sitemap بعنوان مطلق مثل:
+# Sitemap: https://your-domain.example/sitemap.xml

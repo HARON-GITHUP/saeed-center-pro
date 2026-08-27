@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- استبدل SITE_URL بالرابط النهائي للموقع قبل النشر -->
+  <url><loc>SITE_URL/index.html</loc></url>
+  <url><loc>SITE_URL/primary.html</loc></url>
+  <url><loc>SITE_URL/preparatory.html</loc></url>
+  <url><loc>SITE_URL/secondary.html</loc></url>
+  <url><loc>SITE_URL/teachers.html</loc></url>
+  <url><loc>SITE_URL/schedule.html</loc></url>
+  <url><loc>SITE_URL/results.html</loc></url>
+  <url><loc>SITE_URL/gallery.html</loc></url>
+  <url><loc>SITE_URL/register.html</loc></url>
+  <url><loc>SITE_URL/about.html</loc></url>
+  <url><loc>SITE_URL/privacy.html</loc></url>
+  <url><loc>SITE_URL/terms.html</loc></url>
+</urlset>

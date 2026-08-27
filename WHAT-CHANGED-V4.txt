@@ -1,0 +1,34 @@
+Saeed Center Pro 4.0 — تحديث بوابة ولي الأمر والطالب
+====================================================
+
+تم التنفيذ:
+- منع تكرار رقم الطالب في التسجيل الجديد والتعديل والاستيراد.
+- رفض أن يكون رقم ولي الأمر هو نفس رقم الطالب.
+- السماح بنفس ولي الأمر لأكثر من طالب (إخوة).
+- رقم متابعة فريد يصدر عند اعتماد التسجيل.
+- دخول ولي الأمر برقم المتابعة + رقم ولي الأمر.
+- إضافة أكثر من مادة/مجموعة لنفس الطالب بدون تسجيل مكرر.
+- حفظ تاريخ النقل بين المجموعات والمدرسين وعدم مسح القديم.
+- امتحانات ودرجات تاريخية مع صورة ورقة الامتحان.
+- حضور/غياب/اعتذار مع الإحصائيات والتواريخ والمادة.
+- إجمالي المطلوب والمدفوع والمتبقي وسجل المدفوعات والإيصالات.
+- رسائل خاصة ورسائل لكل مجموعة مع جديدة/تمت القراءة.
+- رسائل المجموعة تحفظ المستلمين وقت الإرسال حتى لا تضيع بعد نقل الطالب.
+- ملف إداري شامل للطالب.
+- إرسال رقم المتابعة تلقائيًا عبر Webhook عند ربط مزود رسائل، أو رسالة WhatsApp جاهزة يدويًا بدون ادعاء إرسال غير حقيقي.
+- Migration تلقائي للجداول القديمة مع الحفاظ على البيانات.
+- أداة UPGRADE-KEEP-OLD-DATA.bat لنقل قاعدة البيانات وuploads من نسخة قديمة.
+
+تم اختبار:
+- Duplicate phone rejection.
+- Parent/student phone mismatch rule.
+- Siblings with same parent phone.
+- Tracking code issue on confirmation.
+- Two subjects in one student file.
+- Attendance in additional subject.
+- Absence count in portal.
+- Exam image upload and linkage.
+- Financial balance.
+- Direct/group messages and read state.
+- Group transfer history and old-message preservation.
+- Migration from an old database schema.
